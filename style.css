@@ -1,0 +1,100 @@
+* {
+  text-align: center;
+}
+ body {
+    font-family: Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #244dff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: black;
+}
+
+header,h1{
+  color: #ffff;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 5%;
+    max-width: 150px;
+    border: 4px solid #244dff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #244dff;
+    color: white;
+}
+
+h3{
+  color: #707070;
+}
+
+.created-by{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.created-by a img{
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3;
+  border: none;
+  border-radius: 10px;
+}
+
+.created-by a img:hover{
+  transform: scale(1.2);
+}
+
+span{
+  color: black;
+}
+
+.audio-container {
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    align-content: cener;
+    align-items: ceter;
+    justify-content: center;
+}
+
+.audio-container audio {
+    width: 100%;
+    max-width: 100%;
+}
